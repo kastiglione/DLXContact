@@ -15,6 +15,8 @@
 		55FA3545153E138C006CE0FF /* libDLXContact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA352D153E138B006CE0FF /* libDLXContact.a */; };
 		55FA354B153E138C006CE0FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55FA3549153E138C006CE0FF /* InfoPlist.strings */; };
 		55FA354E153E138C006CE0FF /* DLXContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FA354D153E138C006CE0FF /* DLXContactTests.m */; };
+		55FA3567153E16AF006CE0FF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA3566153E16AF006CE0FF /* AddressBook.framework */; };
+		55FA3568153E2E47006CE0FF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA3566153E16AF006CE0FF /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 		55FA354A153E138C006CE0FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55FA354C153E138C006CE0FF /* DLXContactTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLXContactTests.h; sourceTree = "<group>"; };
 		55FA354D153E138C006CE0FF /* DLXContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLXContactTests.m; sourceTree = "<group>"; };
+		55FA3566153E16AF006CE0FF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FA3567153E16AF006CE0FF /* AddressBook.framework in Frameworks */,
 				55FA3531153E138B006CE0FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FA3568153E2E47006CE0FF /* AddressBook.framework in Frameworks */,
 				55FA353F153E138C006CE0FF /* SenTestingKit.framework in Frameworks */,
 				55FA3541153E138C006CE0FF /* UIKit.framework in Frameworks */,
 				55FA3542153E138C006CE0FF /* Foundation.framework in Frameworks */,
@@ -90,6 +95,7 @@
 				55FA3530153E138B006CE0FF /* Foundation.framework */,
 				55FA353E153E138C006CE0FF /* SenTestingKit.framework */,
 				55FA3540153E138C006CE0FF /* UIKit.framework */,
+				55FA3566153E16AF006CE0FF /* AddressBook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
