@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55FA3531153E138B006CE0FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA3530153E138B006CE0FF /* Foundation.framework */; };
+		55FA3537153E138B006CE0FF /* DLXContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FA3536153E138B006CE0FF /* DLXContact.m */; };
+		55FA353F153E138C006CE0FF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA353E153E138C006CE0FF /* SenTestingKit.framework */; };
+		55FA3541153E138C006CE0FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA3540153E138C006CE0FF /* UIKit.framework */; };
+		55FA3542153E138C006CE0FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA3530153E138B006CE0FF /* Foundation.framework */; };
+		55FA3545153E138C006CE0FF /* libDLXContact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA352D153E138B006CE0FF /* libDLXContact.a */; };
+		55FA354B153E138C006CE0FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55FA3549153E138C006CE0FF /* InfoPlist.strings */; };
+		55FA354E153E138C006CE0FF /* DLXContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FA354D153E138C006CE0FF /* DLXContactTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55FA3543153E138C006CE0FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55FA3524153E138B006CE0FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55FA352C153E138B006CE0FF;
+			remoteInfo = DLXContact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55FA352D153E138B006CE0FF /* libDLXContact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDLXContact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FA3530153E138B006CE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55FA3534153E138B006CE0FF /* DLXContact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DLXContact-Prefix.pch"; sourceTree = "<group>"; };
+		55FA3535153E138B006CE0FF /* DLXContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLXContact.h; sourceTree = "<group>"; };
+		55FA3536153E138B006CE0FF /* DLXContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLXContact.m; sourceTree = "<group>"; };
+		55FA353D153E138C006CE0FF /* DLXContactTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLXContactTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FA353E153E138C006CE0FF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		55FA3540153E138C006CE0FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		55FA3548153E138C006CE0FF /* DLXContactTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DLXContactTests-Info.plist"; sourceTree = "<group>"; };
+		55FA354A153E138C006CE0FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55FA354C153E138C006CE0FF /* DLXContactTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLXContactTests.h; sourceTree = "<group>"; };
+		55FA354D153E138C006CE0FF /* DLXContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLXContactTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55FA352A153E138B006CE0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FA3531153E138B006CE0FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FA3539153E138C006CE0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FA353F153E138C006CE0FF /* SenTestingKit.framework in Frameworks */,
+				55FA3541153E138C006CE0FF /* UIKit.framework in Frameworks */,
+				55FA3542153E138C006CE0FF /* Foundation.framework in Frameworks */,
+				55FA3545153E138C006CE0FF /* libDLXContact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55FA3522153E138B006CE0FF = {
+			isa = PBXGroup;
+			children = (
+				55FA3532153E138B006CE0FF /* DLXContact */,
+				55FA3546153E138C006CE0FF /* DLXContactTests */,
+				55FA352F153E138B006CE0FF /* Frameworks */,
+				55FA352E153E138B006CE0FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55FA352E153E138B006CE0FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55FA352D153E138B006CE0FF /* libDLXContact.a */,
+				55FA353D153E138C006CE0FF /* DLXContactTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55FA352F153E138B006CE0FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55FA3530153E138B006CE0FF /* Foundation.framework */,
+				55FA353E153E138C006CE0FF /* SenTestingKit.framework */,
+				55FA3540153E138C006CE0FF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55FA3532153E138B006CE0FF /* DLXContact */ = {
+			isa = PBXGroup;
+			children = (
+				55FA3535153E138B006CE0FF /* DLXContact.h */,
+				55FA3536153E138B006CE0FF /* DLXContact.m */,
+				55FA3533153E138B006CE0FF /* Supporting Files */,
+			);
+			path = DLXContact;
+			sourceTree = "<group>";
+		};
+		55FA3533153E138B006CE0FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FA3534153E138B006CE0FF /* DLXContact-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55FA3546153E138C006CE0FF /* DLXContactTests */ = {
+			isa = PBXGroup;
+			children = (
+				55FA354C153E138C006CE0FF /* DLXContactTests.h */,
+				55FA354D153E138C006CE0FF /* DLXContactTests.m */,
+				55FA3547153E138C006CE0FF /* Supporting Files */,
+			);
+			path = DLXContactTests;
+			sourceTree = "<group>";
+		};
+		55FA3547153E138C006CE0FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FA3548153E138C006CE0FF /* DLXContactTests-Info.plist */,
+				55FA3549153E138C006CE0FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55FA352B153E138B006CE0FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55FA352C153E138B006CE0FF /* DLXContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FA3551153E138C006CE0FF /* Build configuration list for PBXNativeTarget "DLXContact" */;
+			buildPhases = (
+				55FA3529153E138B006CE0FF /* Sources */,
+				55FA352A153E138B006CE0FF /* Frameworks */,
+				55FA352B153E138B006CE0FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLXContact;
+			productName = DLXContact;
+			productReference = 55FA352D153E138B006CE0FF /* libDLXContact.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		55FA353C153E138C006CE0FF /* DLXContactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FA3554153E138C006CE0FF /* Build configuration list for PBXNativeTarget "DLXContactTests" */;
+			buildPhases = (
+				55FA3538153E138C006CE0FF /* Sources */,
+				55FA3539153E138C006CE0FF /* Frameworks */,
+				55FA353A153E138C006CE0FF /* Resources */,
+				55FA353B153E138C006CE0FF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55FA3544153E138C006CE0FF /* PBXTargetDependency */,
+			);
+			name = DLXContactTests;
+			productName = DLXContactTests;
+			productReference = 55FA353D153E138C006CE0FF /* DLXContactTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55FA3524153E138B006CE0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 55FA3527153E138B006CE0FF /* Build configuration list for PBXProject "DLXContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55FA3522153E138B006CE0FF;
+			productRefGroup = 55FA352E153E138B006CE0FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55FA352C153E138B006CE0FF /* DLXContact */,
+				55FA353C153E138C006CE0FF /* DLXContactTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55FA353A153E138C006CE0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FA354B153E138C006CE0FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55FA353B153E138C006CE0FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55FA3529153E138B006CE0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FA3537153E138B006CE0FF /* DLXContact.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FA3538153E138C006CE0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FA354E153E138C006CE0FF /* DLXContactTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55FA3544153E138C006CE0FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55FA352C153E138B006CE0FF /* DLXContact */;
+			targetProxy = 55FA3543153E138C006CE0FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55FA3549153E138C006CE0FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55FA354A153E138C006CE0FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55FA354F153E138C006CE0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55FA3550153E138C006CE0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FA3552153E138C006CE0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DLXContact.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLXContact/DLXContact-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55FA3553153E138C006CE0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DLXContact.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLXContact/DLXContact-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		55FA3555153E138C006CE0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLXContact/DLXContact-Prefix.pch";
+				INFOPLIST_FILE = "DLXContactTests/DLXContactTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		55FA3556153E138C006CE0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DLXContact/DLXContact-Prefix.pch";
+				INFOPLIST_FILE = "DLXContactTests/DLXContactTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55FA3527153E138B006CE0FF /* Build configuration list for PBXProject "DLXContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FA354F153E138C006CE0FF /* Debug */,
+				55FA3550153E138C006CE0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FA3551153E138C006CE0FF /* Build configuration list for PBXNativeTarget "DLXContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FA3552153E138C006CE0FF /* Debug */,
+				55FA3553153E138C006CE0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FA3554153E138C006CE0FF /* Build configuration list for PBXNativeTarget "DLXContactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FA3555153E138C006CE0FF /* Debug */,
+				55FA3556153E138C006CE0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55FA3524153E138B006CE0FF /* Project object */;
+}
