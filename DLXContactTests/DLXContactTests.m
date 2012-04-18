@@ -7,26 +7,44 @@
 //
 
 #import "DLXContactTests.h"
+#import "DLXContact.h"
+
+@interface DLXContactTests ()
+@property (nonatomic, strong) DLXContact* contact;
+@end
 
 @implementation DLXContactTests
+
+@synthesize contact;
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    self.contact = [[DLXContact alloc] init];
 }
 
-- (void)tearDown
+-(void) testFirstName
 {
-    // Tear-down code here.
-    
-    [super tearDown];
+    NSString* input = contact.firstName = @"Dave";
+    STAssertEqualObjects(contact.firstName, input, @"First name did not round trip.");
 }
 
-- (void)testExample
+-(void) testHomeEmail
 {
-    STFail(@"Unit tests are not implemented yet in DLXContactTests");
+    NSString* input = contact.homeEmail = @"reginaldcousins@hotmail.com";
+    STAssertEqualObjects(contact.homeEmail, input, @"Home email did not round trip.");
+}
+
+-(void) testIPhone
+{
+    NSString* input = contact.iPhone = @"403-240-3247";
+    STAssertEqualObjects(contact.iPhone, input, @"iPhone did not round trip.");
+}
+
+-(void) testGithubUsername
+{
+    NSString* input = contact.githubUsername = @"kastiglione";
+    STAssertEqualObjects(contact.githubUsername, input, @"Github username did not round trip.");
 }
 
 @end
