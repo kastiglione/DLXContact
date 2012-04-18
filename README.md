@@ -1,5 +1,9 @@
 # Easy API for iOS Contacts
 
+## Requirements
+
+The code uses ARC, which requires: Xcode 4.2 or newer and iOS 4 and newer.
+
 ## Installation
 
 Copy `DLXContact.h` and `DLXContact.m` to your project.
