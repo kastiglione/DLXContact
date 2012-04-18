@@ -16,3 +16,9 @@ Copy `DLXContact.h` and `DLXContact.m` to your project.
 ```
 
 see `DLXContact.h` for full API.
+
+## License
+
+Licensed under the MIT License
+
+see `LICENSE.txt`
